@@ -26,7 +26,6 @@ const listaPizzas = [
 const start = (e) => {
     const valorId = inputId.value;
     (e.target.id === "search") ? captureId(parseInt(valorId)) : null;
-    console.log(valorId);
 }
 
 const messageError = (inputId) =>{
